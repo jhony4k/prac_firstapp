@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "477786838158",
+    "firebase_url": "https://praclogin.firebaseio.com",
+    "project_id": "praclogin",
+    "storage_bucket": "praclogin.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:477786838158:android:8b274680ef3b1bfe",
+        "android_client_info": {
+          "package_name": "shamim.prac_firstapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "477786838158-e4jcahon2qkrphabir9polftqmp50anb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "shamim.prac_firstapp",
+            "certificate_hash": "79b780b182b9cb849923d208c9eb2530298366b4"
+          }
+        },
+        {
+          "client_id": "477786838158-abeenlfj95fnv38a990k5dlgf8bnliot.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCozd3CCQZRWwuKduqgl0wTmdwc2TWhjN4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "477786838158-abeenlfj95fnv38a990k5dlgf8bnliot.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
