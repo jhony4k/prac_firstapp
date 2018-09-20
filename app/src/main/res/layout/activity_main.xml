@@ -59,17 +59,41 @@
         android:hint="Earned Credit"
         android:inputType="numberSigned" />
 
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Choose Photo"
+            android:id="@+id/btn_uploadpic"
+
+            />
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:id="@+id/img_picture"
+
+
+            />
+    </LinearLayout>
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        >
 
         <Button
             android:id="@+id/btn_signup"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Signup" />
+            android:text="Signup"
+            android:visibility="invisible" />
 
         <Button
             android:id="@+id/btn_login"
@@ -83,7 +107,10 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="View All" />
+            android:text="View All"
+            android:visibility="invisible" />
 
-    </LinearLayout>
+
+        </LinearLayout>
+
 </LinearLayout>
